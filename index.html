@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071a33">
+  <title>Belle Transport Routier — Transport & Déménagement</title>
+  <meta name="description" content="Transport routier, déménagement et livraison de marchandises au départ de Casablanca et partout au Maroc.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#accueil">
+      <span class="brand-mark">▰</span>
+      <span>Belle Transport <small>Routier</small></span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#services">Services</a>
+      <a href="#fonctionnement">Comment ça marche</a>
+      <a href="#avis">Avis</a>
+      <a href="#devis">Devis</a>
+    </nav>
+    <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="availability"><i></i> Disponible 24h/24 · 7j/7</div>
+        <p class="eyebrow">CASABLANCA · MAROC</p>
+        <h1>Votre transport.<br><span>Notre engagement.</span></h1>
+        <p class="hero-text">Transport routier, déménagement, livraison de marchandises et transport de mobilier au départ de Casablanca et vers différentes villes du Maroc.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#devis">🚚 Obtenir mon devis</a>
+          <a class="btn btn-light" href="https://wa.me/212662343249?text=Bonjour%20Belle%20Transport%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noopener">💬 WhatsApp direct</a>
+        </div>
+        <div class="trust-row">
+          <span>✓ Réponse rapide</span><span>✓ Service professionnel</span><span>✓ Suivi client</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glow"></div>
+        <div class="truck-card">
+          <div class="truck-top">BELLE<br><b>TRANSPORT</b></div>
+          <div class="truck-line"></div>
+          <div class="truck-body"><span></span><span></span><span></span></div>
+          <div class="truck-wheels"><i></i><i></i></div>
+        </div>
+        <div class="floating-card reliable"><b>✓</b><div><strong>Service fiable</strong><small>Prise en charge soignée</small></div></div>
+        <div class="floating-card tracked"><b>↗</b><div><strong>Suivi client</strong><small>Votre commande à chaque étape</small></div></div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>24/7</strong><span>Disponibilité</span></div>
+      <div><strong>+20</strong><span>Villes desservies</span></div>
+      <div><strong>4.8/5</strong><span>Avis clients</span></div>
+      <div><strong>100%</strong><span>Suivi personnalisé</span></div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-head">
+        <p class="eyebrow dark">NOS SERVICES</p>
+        <h2>Une solution pour chaque besoin.</h2>
+        <p>Des prestations pensées pour les particuliers et les professionnels.</p>
+      </div>
+      <div class="cards">
+        <article class="service-card"><div class="icon">🚛</div><h3>Transport routier</h3><p>Transport de marchandises entre Casablanca et les principales villes du Maroc.</p></article>
+        <article class="service-card"><div class="icon">📦</div><h3>Déménagement</h3><p>Prise en charge du mobilier et des effets personnels avec soin et organisation.</p></article>
+        <article class="service-card"><div class="icon">🛋️</div><h3>Transport de mobilier</h3><p>Canapés, meubles, électroménager et colis volumineux, avec manutention adaptée.</p></article>
+        <article class="service-card"><div class="icon">⚡</div><h3>Livraison express</h3><p>Une solution rapide pour vos livraisons urgentes selon disponibilité.</p></article>
+      </div>
+    </section>
+
+    <section class="process section" id="fonctionnement">
+      <div class="section-head">
+        <p class="eyebrow dark">SIMPLE & RAPIDE</p>
+        <h2>Comment ça marche ?</h2>
+      </div>
+      <div class="steps">
+        <div class="step"><span>01</span><h3>Demandez votre devis</h3><p>Indiquez votre départ, destination, date et type de transport.</p></div>
+        <div class="step"><span>02</span><h3>Confirmation</h3><p>Nous vous recontactons pour valider les détails et le prix.</p></div>
+        <div class="step"><span>03</span><h3>Prise en charge</h3><p>Notre équipe organise le transport et le suivi de votre commande.</p></div>
+      </div>
+    </section>
+
+    <section class="quote-section" id="devis">
+      <div class="quote-wrap">
+        <div>
+          <p class="eyebrow">DEVIS GRATUIT</p>
+          <h2>Parlons de votre transport.</h2>
+          <p>Remplissez le formulaire. Votre demande sera enregistrée dans l'espace administrateur pour traitement.</p>
+        </div>
+        <form id="quoteForm" class="quote-form">
+          <div class="form-grid">
+            <label>Nom complet<input name="name" required placeholder="Votre nom"></label>
+            <label>Téléphone<input name="phone" required placeholder="06 XX XX XX XX"></label>
+            <label>Ville de départ<input name="from" required placeholder="Casablanca"></label>
+            <label>Destination<input name="to" required placeholder="Rabat"></label>
+            <label>Date souhaitée<input name="date" type="date" required></label>
+            <label>Type de service<select name="service" required><option value="">Choisir</option><option>Déménagement</option><option>Transport de marchandises</option><option>Transport de mobilier</option><option>Livraison express</option></select></label>
+          </div>
+          <label>Message / détails<textarea name="message" rows="4" placeholder="Volume, étage, quantité, informations utiles..."></textarea></label>
+          <button class="btn btn-primary full" type="submit">Envoyer ma demande →</button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section reviews" id="avis">
+      <div class="section-head"><p class="eyebrow dark">ILS NOUS FONT CONFIANCE</p><h2>Des clients satisfaits.</h2></div>
+      <div class="review-grid">
+        <blockquote>“Service ponctuel, communication rapide et déménagement bien organisé.”<footer>★★★★★ · Client Casablanca</footer></blockquote>
+        <blockquote>“Très bonne prise en charge de nos marchandises entre les villes.”<footer>★★★★★ · Client professionnel</footer></blockquote>
+        <blockquote>“Équipe sérieuse et suivi du transport du début à la fin.”<footer>★★★★★ · Client Maroc</footer></blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><b>Belle Transport Routier</b><p>Transport · Déménagement · Livraison</p></div>
+    <div><a href="tel:+212662343249">06 62 34 32 49</a><a href="https://wa.me/212662343249" target="_blank" rel="noopener">WhatsApp</a></div>
+    <div>© 2026 Belle Transport Routier</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
